@@ -1,0 +1,14 @@
+
+<form action="" (ngSubmit)="onHandleEdit()" [formGroup]="productForm" class="formedit">
+    <div class="nameProduct mb-3">
+        <label for="" class="form-label ">Name Product</label>
+        <input type="text" formControlName="name" class="form-control w-50"/><br>
+    </div>
+
+    <div class="priceProduct mb-3">
+        <label for="" class="form-label">Price Product</label>
+        <input type="number" formControlName="price" class="form-control w-50"/><br>
+    </div>
+
+      <button type="submit" [disabled]="!productForm.valid" routerLink="/product">Submit</button>
+</form>

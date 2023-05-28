@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "sangsung",
+      "price": 200,
+      "img": "https://picsum.photos/300/300"
+    },
+    {
+      "id": 2,
+      "name": "iphone",
+      "price": 200,
+      "img": "https://picsum.photos/300/300"
+    }
+  ]
+}
